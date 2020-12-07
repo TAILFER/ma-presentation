@@ -1,0 +1,185 @@
+/* Custom fonts and colors */
+
+body{
+	background-color: #FFFFFF;
+	color: rgb(50,50,50);
+	font-family: 'Raleway', cursive;
+	font-size: 20px
+	}
+
+p {
+	color: black;
+	font-weight: bold;
+	font-family:'Raleway', cursive;
+	font-size: 20px
+}
+
+h1{
+	font-family: 'Raleway', cursive;
+	 font-size: 20px
+	  }
+
+h2 {
+	font-family: 'Homemade Apple', cursive;
+	font-weight: lighter;
+	font-size: 25px;
+	color : #FF9393;
+	text-shadow: 0px 10px 30px rgba(0,0,0,0.38)
+	}
+
+a {
+	text-decoration: none;
+	color: #E3207E;
+	transition: color 0.3s ease;
+	font-size: 20px;
+}
+
+a: hover {
+	color: #FFEF0F;
+	cursor: pointer;
+	background-color:yellow;}
+
+img {
+	max-width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+
+/* Custom design with class*/
+
+.container {
+	width: 70px : 30px auto;
+	margin: 80px;
+	text-align: center;
+}
+
+@media (max-width: 500px){
+.container {
+	width: 400px;
+	}
+}
+
+@media (max-width: 760px){
+.container {
+	width: 600px;
+	}
+}
+
+.banner {
+	width: 30px : 10px auto;
+	margin: 100px;
+	text-align: center;
+}
+
+.card-grey {
+	background-color: rgb(235, 243, 239);
+	padding: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.38);
+	border-radius: 20px;
+	margin: 50px 35px;
+	text-align: center;
+}
+
+.card-grey-second
+{
+	background-color: rgb(235, 243, 239);
+	padding: 90px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.38);
+	border-radius: 20px;
+	margin: 50px 35px;
+	text-align: center;
+	font-style: italic;
+
+}
+
+.card-grey-second p 
+{
+	
+	text-align: justify;
+	color: black ;
+	font-family:'Raleway', cursive;
+	font-size: 20px
+}
+
+
+.btn-grey
+{
+background-color: #BBD6CB;
+color:#FFFFFF;
+font-weight: bold;
+padding: 20px 30px;
+margin: 10px 10px;
+border-radius: 8px;
+transition: border 0.3s ease-in-out;
+border-bottom: 1px solid transparent;
+}
+
+
+.second-btn-grey
+{
+background-color: #BBD6CB;
+color:#FFFFFF;
+font-weight: bold;
+padding: 20px 30px;
+margin: 10px 0px;
+border-radius: 8px;
+}
+
+.btn-grey : hover {
+background-color:;
+color:#FFFFFF;
+font-weight: bold;
+padding: 20px 30px;
+margin: 20px 20px;
+border-radius: 8px;
+}
+
+.list-inline a
+{
+	list-style: none;
+	padding-left: 0px;
+	color: #4F5964;
+	transition: color 0.3s ease;
+	font-size: 30px;
+}
+
+.list-propos
+{
+	list-style: none;
+	padding-left: 0px
+	}
+
+.list-parcours
+{
+	list-style: none;
+	padding-left: 0px
+	}
+
+.list-inline li
+{
+	display: inline;
+	padding: 10px
+	}
+
+.list-inline a
+{
+color : #FF9393
+}
+
+.list-parcours i
+{
+	list-style: none;
+	padding-left: 0px;
+	color: #BBD6CB;
+	transition: color 0.3s ease;
+	font-size: 60px;
+}
+
+.langues
+{
+	max-height: 32%;
+  	max-width: 32%;
+  	margin-left: auto;
+    margin-right: auto;
+}
